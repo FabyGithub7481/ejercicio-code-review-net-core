@@ -12,7 +12,9 @@ namespace Calculadora.Notations
         public TitleToExport() { }
 
         public TitleToExport(string title) => Title = title;
-
+	
+	
+        //eliminar codigo comentado code smell
         // public TitleToExport(string title, Type formatType)
         // {
         //     Title = title;
