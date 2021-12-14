@@ -21,7 +21,7 @@ namespace Calculadora.Models
         [TitleToExport("Numero 1")]
 		public decimal Numero1 { get; set; }
 
-        [TitleToExport("Operação")]
+        [TitleToExport("Operação")] //no utilizar caracteres especiales
 		public ECodigoOperacao Operacao { get; set; }
 
         [TitleToExport("Numero 2")]
